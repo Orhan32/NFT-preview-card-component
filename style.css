@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.container hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.container .card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container .card .header img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .card .body {
+    margin: 20px 0;
+
+}
+.container .card .body h1{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container .card .body p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .card .body ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .card .body ul li{
+    display: flex;
+    font-weight: 400;
+}
+
+.container .card .body ul li img{
+    margin-right: 8px;
+}
+
+.container .card .body ul li:nth-child(1){
+    color: hsl(178, 100%, 50%);
+}
+
+.container .card .body ul li:nth-child(2){
+    color: hsl(215, 51%, 70%);
+}
+
+.container .card .footer {
+    display: flex;
+    align-items: center;
+}
+
+.container .card .footer p span{
+    color: hsl(215, 51%, 70%);
+}
+
+.container .card .footer img {
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
